@@ -282,6 +282,9 @@
     .seccion-1 {
         background-size: cover;
     }
+    .contenedor-subtitulo-seccion-2 {
+        width: 80%;
+    }
 }
 @media(max-width:1127px) {
     .seccion-3 {
