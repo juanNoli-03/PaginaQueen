@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+/*--ESTILOS SECCION 1--*/
+.seccion-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../media/queen\ ft1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    gap: 230px;
+}
+
+.seccion-1 > h1 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: 400;
+}
+
+header {
+    padding: 15px;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: large;
+}
+/*---------------------------------*/
+
+/*--ESTILOS SECCION 2--*/
+.seccion-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 3--*/
+.seccion-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-image: url('../media/BM\ FONDO1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.contenedor-cards-seccion-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-seccion-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-3 > p {
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.card-seccion-3 > img {
+    height: 350px;
+    width: 350px;
+}
+
+.seccion-3-video {
+    display: flex;
+   justify-content: center;
+   background-color: red;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 4--*/
+.seccion-4 {
+    background-image: url('../media/RT\ Fondo.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+}
+
+.contenedor-cards-seccion-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-seccion-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: 300;
+}
+
+.card-seccion-4 > img {
+    height: 350px;
+    width: 350px;
+}
+
+.card-seccion-4 > p {
+    text-align: center;
+    width: 400px;
+}
+.seccion-4-video {
+    display: flex;
+   justify-content: center;
+   background-color: beige;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 5--*/
+.seccion-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.contenedor-cards-seccion-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-seccion-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-5 > img{
+    width: 800px;
+    height: 600px;
+}
+
+.seccion-5-video {
+    display: flex;
+   justify-content: center;
+   background-color: violet;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 6--*/
+.seccion-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-image: url('../media/JD\ Fondo\ b.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.contenedor-cards-seccion-6{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-seccion-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-6 > img{
+    width: 250px;
+    height: 250px;
+}
+
+.card-seccion-6 > p{
+    width: 300px;
+}
+
+.seccion-6-video {
+    display: flex;
+   justify-content: center;
+   background-color: rgb(29, 146, 16);
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS VARIOS--*/
+.banner-artista-1 {
+    background-image: url('../media/BM\ FONDO.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-2 {
+    background-image: url('../media/FONDO_AMARILLO_RT.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-3 {
+    background-image: url('../media/FONDO_VIOLETA_FM.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-4 {
+    background-image: url('../media/JD\ Fondo.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.contenedor-textos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.contenedor-texto > p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 2.5;
+    font-weight: 500; 
+}
+
+.seccion-estadisticas-discografia {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px;
+}
+
+.contenedor-estadisticas {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.contenedor-estadistica {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+
+.icon-contenedor > img {
+    width: 50px;
+    height: 50px;
+}
+
+.text-contenedor {
+    color: black;
+    font-weight: 300;
+}
+
+.discografia {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contenedor-discos-discografia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.contenedor-disco-discografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: 300;
+}
+
+.contenedor-disco-discografia > img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.contenedor-disco-discografia > img:hover{
+    height: 160px;
+    width: 160px;
+ }
+/*-----------------------------------------------------*/
+
+/*--ESTILOS FOOTER--*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+/*-----------------------------------------------------*/
+
+/*--MEDIA QUERY--*/
+@media(max-width:1360px) {
+    .seccion-1 {
+        height: 80vh;
+    }
+    .banner-artista-1 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-2 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-3 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-4 {
+        padding: 30px;
+        height: 25vh;
+    }
+}
+@media(max-width:1180px) {
+    .seccion-1 > h1 {
+        font-size: 80px;
+    }
+    .card-seccion-3 > img {
+        height: 250px;
+        width: 250px;
+    }   
+    .card-seccion-3 > p {
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+    }
+    .contenedor-textos {
+        width: 80%;
+    }
+    .contenedor-estadisticas {
+       flex-wrap: wrap;
+    }
+    .contenedor-cards-seccion-6 {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card-seccion-6 > img {
+        height: 250px;
+        width: 250px;
+    }   
+    .card-seccion-6 > p {
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+    }
+    
+}
+@media(max-width:860px) {
+    .contenedor-cards-seccion-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contenedor-cards-seccion-4 {
+        gap: 40px;
+    }
+    .card-seccion-5 > img{
+        width: 600px;
+        height: 400px;
+    }
+    .banner-artista-1 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-2 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-3 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-4 {
+        padding: 40px;
+        height: 15vh;
+    }
+}
+@media(max-width:680px) {
+    .card-seccion-5 > img{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media(max-width:570px) {
+    .contenedor-textos {
+        width: 100%;
+    }
+    .text-contenedor {
+        font-size: 10px;
+    }
+    .contenedor-estadisticas {
+        gap: 30px;
+    }    
+}
+@media(max-width:460px) {
+    .seccion-1 > h1 {
+        font-size: 50px;
+    }
+    .card-seccion-5 > img{
+        width: 300px;
+        height: 200px;
+    }
+    .card-seccion-4 > img {
+        height: 300px;
+        width: 300px;
+    }    
+    .card-seccion-4 > p {
+        text-align: center;
+        width: 300px;
+    }
+}
+/*-----------------------------------------------------*/
+

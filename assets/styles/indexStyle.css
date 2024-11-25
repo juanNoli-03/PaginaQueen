@@ -34,7 +34,6 @@ header > nav > a {
     color: white;
     text-decoration: none;
     font-weight: 400;
-    font-size: large;
 }
 
 .contenedor-logo-seccion-1 {
@@ -165,6 +164,16 @@ header > nav > a {
     width: 20%;
     border: solid 2px black;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-seccion-5 > button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.boton-seccion-5 > button:hover {
+    font-size: large;
 }
 /*-----------------------------------------------------*/
 
@@ -237,7 +246,7 @@ header > nav > a {
     display: flex;
     flex-direction: column;
     background-image: url('../media/FONDO\ FINAL\ 1970.png');
-    background-position: center center;
+    background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
     gap: 10px;
@@ -289,12 +298,18 @@ header > nav > a {
     color: black;
     text-align: center;
     gap: 7px;
+    cursor: pointer;
 }
 
 .card > img{
    height: 300px;
    width: 300px;
 }
+
+.card > img:hover{
+    height: 305px;
+    width: 305px;
+ }
 /*-----------------------------------------------------*/
 
 /*--ESTILOS SECCION 9--*/
@@ -337,6 +352,15 @@ header > nav > a {
     text-align: center;
     gap: 40px;
 }
+
+.card-seccion-9 {
+    cursor: pointer;
+}
+
+.card-seccion-9 > img:hover{
+    height: 205px;
+    width: 205px;
+ }
 
 .card-seccion-9 > img{
     height: 200px;
@@ -408,7 +432,6 @@ header > nav > a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: solid 10px white;
     border-bottom: solid 10px white;
     color: white;
     padding: 120px;
@@ -433,6 +456,7 @@ header > nav > a {
     cursor: pointer;
     color: black;
     font-weight: bold;
+    background-color: white;
 }
 /*-----------------------------------------------------*/
 
@@ -516,26 +540,53 @@ footer {
     .seccion-7 > h1 {
         font-size: 20px;
     }
+    .text-contenedor-seccion-9 > p {
+        font-size: 15px;
+    }
+    .contenedor-texto-seccion-10 {
+        font-size: 15px;
+    }
+    .text-iframe-seccion-10 {
+        font-size: 15px;
+    }
+    .contenedor-texto-seccion-11 {
+       font-size: 15px;
+    }
 }
 
 @media(max-width:850px) {
     .seccion-7 > h1 {
         font-size: 60px;
     }
+
     .seccion-7 > h2 {
         font-size: 30px;
     }
+
     .seccion-8 > h2 {
         font-size: 30px;
     }
+
     .card > img {
         height: 150px;
         width: 150px;
     }
+
+    .card > img:hover{
+        height: 155px;
+        width: 155px;
+    }
+
     .card-seccion-9 > img {
         height: 100px;
         width: 100px;
     }
+
+    .card-seccion-9 > img:hover{
+        height: 105px;
+        width: 105px;
+    }
+
     .card-seccion-9 {
         font-size: 12px;
     }
@@ -565,14 +616,56 @@ footer {
     }
 }
 
+@media(max-width:750px) {
+    .seccion-1 {
+        height: 60vh;
+    }
+    
+    .contenedor-logo-seccion-1 > img {
+        height: 220px;
+        width: 320px;
+        padding: 20px;
+    }
+}
+
 @media(max-width:470px) {
+    .seccion-1 {
+        height: 40vh;
+    }
+
+    .contenedor-logo-seccion-1 > img {
+        height: 180px;
+        width: 220px;
+        padding: 20px;
+    }
+    
+    header > nav > a {
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: small;
+    }
+
+    .contenedor-titulo-seccion-2 > h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 30px;
+    }
+    
     .seccion-7 > h1 {
         font-size: 50px;
     }
+
     .card > img {
         height: 120px;
         width: 120px;
     }
+
+    .card > img:hover{
+        height: 125px;
+        width: 125px;
+    }
+
     .card {
         font-size: 12px;
     }
@@ -580,19 +673,29 @@ footer {
         height: 80px;
         width: 80px;
     }
+
+    .card-seccion-9 > img:hover{
+        height: 85px;
+        width: 85px;
+    }
+
     .card-seccion-9 {
         font-size: 8px;
     }
+
     .icons-contenedor-seccion-6 {
         width: auto;
     }
+
     .iframe {
         width: 600px;
         height: 400px;
     }
-    .contenedor-logo-seccion-1 > img {
-        height: 220px;
-        width: 300px;
+    .contenedor-subtitulo-seccion-2 {
+        font-size: 12px;
+    }
+    .seccion-3 {
+        font-size: 12px;
     }
 }
 
@@ -618,16 +721,29 @@ footer {
         width: 600px;
         height: 400px;
     }
-    .contenedor-logo-seccion-1 > img {
-        height: 220px;
-        width: 300px;
-    }
     .iframe-2 {
         width: 200px;
         height: 150px;
     }
+    .form > input {
+        width: 100%;
+      }
     .form > button {
       width: 100%;
+    }
+    .contenedor-subtitulo-seccion-2 {
+        font-size: 10px;
+    }
+    .seccion-3 {
+        font-size: 10px;
+    }
+    .card > img:hover {
+        height: 85px;
+        width: 85px;
+    }
+    .card-seccion-9 > img:hover {
+        height: 75px;
+        width: 75px;
     }
 }
 
