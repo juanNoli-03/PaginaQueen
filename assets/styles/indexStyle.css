@@ -5,6 +5,20 @@
     font-family: "Poppins", serif;
 }
 
+/*--ESTILOS FOOTER--*/
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+/*-----------------------------------------------------*/
+
+/*---ESTILOS INDEX.HTML---*/
+
 /*--ESTILOS SECCION 1--*/
 .seccion-1 {
     display: flex;
@@ -460,18 +474,6 @@ header > nav > a {
 }
 /*-----------------------------------------------------*/
 
-/*--ESTILOS FOOTER--*/
-footer {
-    background-color: black;
-    color: white;
-    display: flex;
-    padding: 20px;
-    gap: 30px;
-    justify-content: center;
-    flex-direction: row;
-}
-/*-----------------------------------------------------*/
-
 /*--MEDIA QUERY--*/
 @media(max-width:1127px) {
     .seccion-1 {
@@ -754,3 +756,480 @@ footer {
 }
 /*-----------------------------------------------------*/
 
+/*--ESTILOS DE MIEMBROS.HTML--*/
+
+/*--ESTILOS SECCION 1 - M--*/
+.seccion-1-m {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../media/queen\ ft1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    gap: 230px;
+}
+
+.seccion-1-m > h1 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 150px;
+    font-weight: 400;
+}
+
+.seccion-1-m > header {
+    padding: 15px;
+}
+
+.seccion-1-m > header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.seccion-1-m > header > nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: large;
+}
+/*---------------------------------*/
+
+/*--ESTILOS SECCION 2 - M--*/
+.seccion-2-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 3 - M--*/
+.seccion-3-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-image: url('../media/BM\ FONDO1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.contenedor-cards-seccion-3-m {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-seccion-3-m {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-3-m > p {
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.card-seccion-3-m > img {
+    height: 350px;
+    width: 350px;
+}
+
+.seccion-3-m-video {
+    display: flex;
+   justify-content: center;
+   background-color: red;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 4 - M--*/
+.seccion-4-m {
+    background-image: url('../media/RT\ Fondo.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+}
+
+.contenedor-cards-seccion-4-m {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-seccion-4-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: 300;
+}
+
+.card-seccion-4-m > img {
+    height: 350px;
+    width: 350px;
+}
+
+.card-seccion-4-m > p {
+    text-align: center;
+    width: 400px;
+}
+.seccion-4-m-video {
+    display: flex;
+   justify-content: center;
+   background-color: beige;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 5 - M--*/
+.seccion-5-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.contenedor-cards-seccion-5-m {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-seccion-5-m {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-5-m > img{
+    width: 800px;
+    height: 600px;
+}
+
+.seccion-5-m-video {
+    display: flex;
+   justify-content: center;
+   background-color: violet;
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS SECCION 6 - M--*/
+.seccion-6-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-image: url('../media/JD\ Fondo\ b.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.contenedor-cards-seccion-6-m{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-seccion-6-m {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-seccion-6-m > img{
+    width: 250px;
+    height: 250px;
+}
+
+.card-seccion-6-m > p{
+    width: 300px;
+}
+
+.seccion-6-m-video {
+    display: flex;
+   justify-content: center;
+   background-color: rgb(29, 146, 16);
+   padding: 50px;
+}
+/*-----------------------------------------------------*/
+
+/*--ESTILOS VARIOS--*/
+.banner-artista-1 {
+    background-image: url('../media/BM\ FONDO.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-2 {
+    background-image: url('../media/FONDO_AMARILLO_RT.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-3 {
+    background-image: url('../media/FONDO_VIOLETA_FM.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.banner-artista-4 {
+    background-image: url('../media/JD\ Fondo.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: auto;
+}
+
+.contenedor-textos-m {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.contenedor-texto-m > p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 2.5;
+    font-weight: 500; 
+}
+
+.seccion-estadisticas-discografia-m {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px;
+}
+
+.contenedor-estadisticas-m {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.contenedor-estadistica-m {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}
+
+.icon-contenedor-m > img {
+    width: 50px;
+    height: 50px;
+}
+
+.text-contenedor-m {
+    color: black;
+    font-weight: 300;
+}
+
+.discografia-m {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contenedor-discos-discografia-m {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.contenedor-disco-discografia-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: 300;
+}
+
+.contenedor-disco-discografia-m > img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.contenedor-disco-discografia-m > img:hover{
+    height: 160px;
+    width: 160px;
+ }
+/*-----------------------------------------------------*/
+
+/*--MEDIA QUERY--*/
+@media(max-width:1360px) {
+    .seccion-1-m {
+        height: 80vh;
+    }
+    .banner-artista-1 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-2 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-3 {
+        padding: 30px;
+        height: 25vh;
+    }
+    
+    .banner-artista-4 {
+        padding: 30px;
+        height: 25vh;
+    }
+}
+@media(max-width:1180px) {
+    .seccion-1-m > h1 {
+        font-size: 80px;
+    }
+    .card-seccion-3-m > img {
+        height: 250px;
+        width: 250px;
+    }   
+    .card-seccion-3-m > p {
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+    }
+    .contenedor-textos-m {
+        width: 80%;
+    }
+    .contenedor-estadisticas-m {
+       flex-wrap: wrap;
+    }
+    .contenedor-cards-seccion-6-m {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card-seccion-6-m > img {
+        height: 250px;
+        width: 250px;
+    }   
+    .card-seccion-6-m > p {
+        font-size: 15px;
+        text-align: center;
+        width: 250px;
+    }
+    
+}
+@media(max-width:860px) {
+    .contenedor-cards-seccion-3-m {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contenedor-cards-seccion-4-m {
+        gap: 40px;
+    }
+    .card-seccion-5-m > img{
+        width: 600px;
+        height: 400px;
+    }
+    .banner-artista-1 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-2 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-3 {
+        padding: 40px;
+        height: 15vh;
+    }
+    
+    .banner-artista-4 {
+        padding: 40px;
+        height: 15vh;
+    }
+}
+@media(max-width:680px) {
+    .card-seccion-5-m > img{
+        width: 400px;
+        height: 200px;
+    }
+}
+@media(max-width:570px) {
+    .contenedor-textos-m {
+        width: 100%;
+    }
+    .text-contenedor-m {
+        font-size: 10px;
+    }
+    .contenedor-estadisticas-m {
+        gap: 30px;
+    }    
+}
+@media(max-width:460px) {
+    .seccion-1-m > h1 {
+        font-size: 50px;
+    }
+    .card-seccion-5-m > img{
+        width: 300px;
+        height: 200px;
+    }
+    .card-seccion-4-m > img {
+        height: 300px;
+        width: 300px;
+    }    
+    .card-seccion-4-m > p {
+        text-align: center;
+        width: 300px;
+    }
+}
+/*-----------------------------------------------------*/
